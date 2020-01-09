@@ -64,121 +64,106 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Coding Interview University](#coding-interview-university)
+  - [What is it?](#what-is-it)
+  - [Table of Contents](#table-of-contents)
+  - [Why use it?](#why-use-it)
+  - [How to use it](#how-to-use-it)
+  - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+  - [About Video Resources](#about-video-resources)
+  - [Interview Process &amp; General Interview Prep](#interview-process-amp-general-interview-prep)
+  - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+  - [Book List](#book-list)
+    - [Interview Prep](#interview-prep)
+    - [Computer Architecture](#computer-architecture)
+    - [Language Specific](#language-specific)
+    - [C++](#c)
+    - [Java](#java)
+    - [Python](#python)
+  - [Before you Get Started](#before-you-get-started)
+    - [1. You Won't Remember it All](#1-you-wont-remember-it-all)
+    - [2. Use Flashcards](#2-use-flashcards)
+    - [3. Review, review, review](#3-review-review-review)
+    - [4. Focus](#4-focus)
+  - [What you won't see covered](#what-you-wont-see-covered)
+  - [The Daily Plan](#the-daily-plan)
+  - [Prerequisite Knowledge](#prerequisite-knowledge)
+  - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+  - [Data Structures](#data-structures)
+  - [More Knowledge](#more-knowledge)
+  - [Trees](#trees)
+  - [Sorting](#sorting)
+  - [Graphs](#graphs)
+  - [Even More Knowledge](#even-more-knowledge)
+  - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
+  - [Final Review](#final-review)
+  - [Coding Question Practice](#coding-question-practice)
+  - [Coding exercises/challenges](#coding-exerciseschallenges)
+  - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+  - [Your Resume](#your-resume)
+  - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+  - [Have questions for the interviewer](#have-questions-for-the-interviewer)
+  - [Once You've Got The Job](#once-youve-got-the-job)
+  - [Additional Books](#additional-books)
+  - [Additional Learning](#additional-learning)
+  - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+  - [Video Series](#video-series)
+  - [Computer Science Courses](#computer-science-courses)
+  - [Papers](#papers)
+  - [LICENSE](#license)
 
 ---------------- Everything below this point is optional ----------------
 
 <details>
 <summary>Additional Resources</summary>
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
-    - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+- [Coding Interview University](#coding-interview-university)
+  - [What is it?](#what-is-it)
+  - [Table of Contents](#table-of-contents)
+  - [Why use it?](#why-use-it)
+  - [How to use it](#how-to-use-it)
+  - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+  - [About Video Resources](#about-video-resources)
+  - [Interview Process &amp; General Interview Prep](#interview-process-amp-general-interview-prep)
+  - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+  - [Book List](#book-list)
+    - [Interview Prep](#interview-prep)
+    - [Computer Architecture](#computer-architecture)
+    - [Language Specific](#language-specific)
+    - [C++](#c)
+    - [Java](#java)
+    - [Python](#python)
+  - [Before you Get Started](#before-you-get-started)
+    - [1. You Won't Remember it All](#1-you-wont-remember-it-all)
+    - [2. Use Flashcards](#2-use-flashcards)
+    - [3. Review, review, review](#3-review-review-review)
+    - [4. Focus](#4-focus)
+  - [What you won't see covered](#what-you-wont-see-covered)
+  - [The Daily Plan](#the-daily-plan)
+  - [Prerequisite Knowledge](#prerequisite-knowledge)
+  - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+  - [Data Structures](#data-structures)
+  - [More Knowledge](#more-knowledge)
+  - [Trees](#trees)
+  - [Sorting](#sorting)
+  - [Graphs](#graphs)
+  - [Even More Knowledge](#even-more-knowledge)
+  - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
+  - [Final Review](#final-review)
+  - [Coding Question Practice](#coding-question-practice)
+  - [Coding exercises/challenges](#coding-exerciseschallenges)
+  - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+  - [Your Resume](#your-resume)
+  - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+  - [Have questions for the interviewer](#have-questions-for-the-interviewer)
+  - [Once You've Got The Job](#once-youve-got-the-job)
+  - [Additional Books](#additional-books)
+  - [Additional Learning](#additional-learning)
+  - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+  - [Video Series](#video-series)
+  - [Computer Science Courses](#computer-science-courses)
+  - [Papers](#papers)
+  - [LICENSE](#license)
 
 </details>
 
@@ -231,10 +216,10 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 ## Don't feel you aren't smart enough
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
-- [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
+- [ ] [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [ ] [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [x] [Believe you can change](http://www.aaronsw.com/weblog/dweck)
+- [ ] [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
 
 ## About Video Resources
 
@@ -250,9 +235,9 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 <details>
 <summary>Interview Process & General Interview Prep</summary>
 
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [x] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [x] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
@@ -285,13 +270,14 @@ You could also use these, but read around first. There may be caveats:
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+Here is an article I wrote about choosing a language for the interview:
+- [x] [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
 
 You need to be very comfortable in the language and be knowledgeable.
 
 Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
+- [x] http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- [x] http://blog.codingforinterviews.com/best-programming-language-jobs/
 
 [See language resources here](programming-language-resources.md)
 
@@ -357,13 +343,13 @@ If you read through one of these, you should have all the data structures and al
 
 ### C++
 
+Acefire: I choose python as the primary language for interview, so I skip these.
 <details>
 <summary>C++</summary>
-
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- [-] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [-] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
 
@@ -371,17 +357,18 @@ If you have a better recommendation for C++, please let me know. Looking for a c
 
 ### Java
 
+Acefire: I choose python as the primary language for interview, so I skip these.
 <details>
 <summary>Java</summary>
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+- [-] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - videos with book content (and Sedgewick!) on coursera:
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
 OR:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- [-] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
     - used as optional text for CS intro course at UC Berkeley
     - see my book report on the Python version below. This book covers the same topics.
@@ -415,7 +402,7 @@ through my notes and making flashcards so I could review.
 
 Read please so you won't make my mistakes:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+- [x] [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
 ### 2. Use Flashcards
 
